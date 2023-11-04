@@ -17,13 +17,15 @@ $(function () {
       timeBlock.classList.remove('present', 'future');
       timeBlock.classList.add('past');
     } else {
+      //removes the current class setting
       timeBlock.classList.remove('past', 'present');
+      //adds the new class setting
       timeBlock.classList.add('future');
     }
   });
 
-  // TODO: Add code to get any user input that was saved in localStorage and set
-  // the values of the corresponding textarea elements.
+
+
   timeBlocks.forEach(function (timeBlock) {
     const blockId = timeBlock.id;
     const userInput = localStorage.getItem(blockId);
