@@ -5,3 +5,4 @@
 ![Capture](https://github.com/Goobergreve09/js-workday-schedule/assets/143923830/7a52f6f7-aea7-4ceb-b958-1c0ab450e1db)
 
 ## Link
+https://goobergreve09.github.io/js-workday-schedule/
